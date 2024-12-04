@@ -1,11 +1,17 @@
 package com.example.demo.used;
 
+import org.springframework.stereotype.Component;
+
+/**
+ * 朝の挨拶を行う
+ */
+
+@Component
 public class MorningGreet implements Greet {
 
 	@Override
 	public String greeting() {
-		// TODO 自動生成されたメソッド・スタブ
-		return null;
+		return "おはようございます";
 	}
 
 }
